@@ -1,0 +1,39 @@
+/**
+ * Copyright (c) 2024. Designed and Developed by Saurabh Lokhande.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #09090b; /* os-900 */
+  color: #e4e4e7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
+
+/* Glass Effect Utility */
+.glass-panel {
+  @apply bg-zinc-900/70 backdrop-blur-md border border-zinc-700/50;
+}

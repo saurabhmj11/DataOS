@@ -1,0 +1,5 @@
+{
+  "name": "Copy of DataOS - Autonomous Analytics",
+  "description": "A resume-grade autonomous data engineering and analytics agent utilizing MCP architecture, Gemini 3 Flash, and simulated DuckDB/Polars processing for instant insights.",
+  "requestFramePermissions": []
+}
